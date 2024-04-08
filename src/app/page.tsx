@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar/Navbar"
 import ImageSlideshow from "./components/ImageSlideshow/ImageSlideshow"
 import Favourites from "./components/Favourites/Favourites"
+import BestSeller from "./components/BestSeller/BestSeller"
 
 export default function Home() {
   return (
@@ -16,6 +17,10 @@ export default function Home() {
 
       <div className="mx-10 py-10">
         <Favourites />
+      </div>
+
+      <div className="mx-10 py-10">
+        <BestSeller />
       </div>
     </div>
   )
