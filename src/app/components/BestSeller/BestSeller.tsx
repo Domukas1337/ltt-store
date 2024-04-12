@@ -14,6 +14,9 @@ export default function BestSeller() {
                     </div>
                 ))}
             </div>
+            <div className="text-center mt-2">
+                <button className="text-5xl text-white bg-purple-500 transition-all duration-150 p-2 rounded-md hover:scale-110">View all</button>
+            </div>
         </div>
     )
 }
